@@ -1,0 +1,312 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*MY CSS*/
+:root{
+/*	text-align: center;
+*/	clear: both;
+	font-family: sans-serif;
+	}
+
+
+a{
+	text-decoration: none;
+}
+
+li{
+	display: inline-block;
+	list-style: none;
+}
+
+nav{
+	clear: both;
+	background-color: rgba(255,255,255,0.8);
+	position:relative;
+	padding-bottom: 20px;
+
+}
+
+#navi{
+	text-align: right;
+
+}
+
+nav li{
+	
+	padding: 0 5px 0 5px;
+	margin: 20px 20px 0 20px;
+
+}
+nav li a{
+	color: black;
+}
+
+
+/*.group:after .group:before{
+	clear: both;
+}
+*/
+.toplogo{
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	bottom: 0;
+	left: 100px;
+}
+
+.section-one{
+	background: url('../img/finalback.jpg');
+	background-size: cover;
+}
+
+#firstdiv{
+	/*background: url('../img/car.jpg') no-repeat center;*/
+	/*padding-bottom: 120px;*/
+}
+
+
+#post{
+	background-color: green;
+	width: 180px;
+	margin: 10px 0 60px 170px;
+}
+#post a{
+	display: inline-block;
+	padding: 10px;
+	width: 85%;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+}
+
+#firstdiv h1{
+	font-size: 60px;
+	margin: 100px 0 0 170px;
+}
+
+#firstdiv #postj{
+	margin: 10px 0 0 170px;
+}
+
+#secdiv{
+	background-color: rgba(0,0,0,0.6);
+	color: lightgrey;
+	text-align: center;
+	padding: 8px 0 10px 0;
+}
+#secdiv h1{
+	margin: 15px 0 0 0;
+	letter-spacing: 2px;
+}
+#secdiv h1, #thirddiv h1, #fifthdiv h1{
+	font-size: 40px;
+}
+
+
+
+#secdiv p{
+	clear: both;
+	display: inline;
+	/*padding: 0 5px 0 5px;*/
+	margin: 15px 0 0 10px;
+	font-size:12px;
+}
+
+#secdiv #fullstop{
+	font-weight: bold;
+	padding: 0 2px 0 2px;
+}
+
+#thirddiv{
+	padding: 40px 0;
+	background-color: white;
+	color: grey;
+	text-align: center;
+	margin: 30px 0;
+
+}
+
+#thirddiv li{
+	display: inline-block;
+	padding: 0 20px 0 20px;
+	font-size: 12px;
+	margin: 0 0 5px 0;
+}
+
+#thirddiv h1{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#divthreep{
+	padding: 0 100px 40px 100px;
+}
+
+#arrow{
+	padding-top: 150px;
+}
+/*#thirddiv li:nth-child(n+2){
+	padding: 250px 0 150px 0;
+}*/
+
+#lione{
+	position: relative;
+	left: -220px;
+}
+
+#litwo{
+	position: relative;
+	left: -70px;
+}
+
+#lithree{
+	position: relative;
+	left: 55px;
+}
+
+#lifour{
+	position: relative;
+	left: 200px;
+}
+
+#fourthdiv{
+	background-color: lightgrey;
+	width:100%;
+	text-align: center;
+	padding: 50px 0 40px 0;
+	font-size: 15px;
+}
+
+#fourthdiv h1{
+	margin: 0 0 20px 0;
+	font-size: 35px;
+}
+
+#fourthdiv p{
+	margin: 10px 0 15px 0;
+}
+
+
+#getstarted{
+	margin: 10px 6px 60px 100px;
+}
+
+#getstarted a{
+	display: inline-block;
+	padding: 15px;
+	background-color: green;
+	text-align: center;
+	color: #fff;
+	width: 	180px;
+}
+
+
+
+#fifthdiv{
+	/*padding-bottom: 5px;*/
+	background-color: white;
+	color: grey;
+	text-align: center;
+	padding: 20px 0 80px 0;
+
+}
+#fifthdiv h1{
+	margin-bottom: 30px;
+}
+
+#fifthdiv li{
+	
+	padding: 0 20px 0 20px;
+}
+
+/*img[src="img/logo-1.jpg"] {
+	position: relative;
+	left: -350px;
+}
+
+img[src="img/logo-2.jpg"] {
+	position: relative;
+	left: -150px;
+	top: -20px;
+}
+
+img[src="img/logo-3.jpg"] {
+	position: relative;
+	right: -150px;
+	top: -10px;
+}
+
+img[src="img/logo-4.jpg"] {
+	position: relative;
+	right: -350px;
+	top: -5px;
+}
+*/
+/*#fifthdiv, #fourthdiv, #thirddiv{
+	height: 100px;
+}
+*/
+
+/*#fifthdiv {
+	position: relative;
+	left: -300px;
+}
+*/
+footer{
+	border-top: 4px solid green;
+	background-color: black;
+	padding-top: 30px;
+}
+
+footer a{
+	float: left;
+	padding: 0 15px 0 15px;
+	color: white;
+}
